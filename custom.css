@@ -1,0 +1,39 @@
+.fw {
+    font-weight: 700;
+}
+
+.fz {
+    font-size: 24px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#fix-nav {
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    background-color: transparent;
+    left: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    object-fit: cover;
+    opacity: 0.8;
+}
