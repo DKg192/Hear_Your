@@ -1,0 +1,12 @@
+#box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#box p {
+    margin-right: 30px;
+    font-family: 'Osake', sans-serif;
+    font-size: 50px;
+    color: blue;
+}
